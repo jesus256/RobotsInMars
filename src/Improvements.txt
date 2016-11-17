@@ -1,0 +1,14 @@
+-In the real world we would like to move all robots at once, not one by one, for that a multi-threading approach is needed and also
+a more complex RobotManager with more restrictions and checks.
+
+-It is obvious that we need a way more dynamic to add future commands, things like a dynamic service discovery or some
+kind of reflection process associated to new commands would be nice.
+
+-Faster and more realiable(fault tolerant) ways for message delivery: Queues, Topics, etc.
+
+-Backtracking/greedy prorgamming mechanisms: it can be useful to store commands in a persistent way for being able to activate backtracking algorithms to
+make a robot return to the original point or to some waypoint, also it would enable greedy algorithms to be used for finding the best/shortest paths,
+avoid dangerous path etc..
+
+
+
